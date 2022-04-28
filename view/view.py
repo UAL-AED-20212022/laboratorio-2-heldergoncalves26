@@ -1,11 +1,11 @@
-from controller import controller
-from models import Node
-from models import LinkedList
+import controller.controller as controller
+from models.Node import Node
+from models.LinkedList import LinkedList
 
 def main():
     linked_list = LinkedList()
 
-    
+
     while True:
         comandos = input().split(" ")
         if comandos[0] == "RPI":

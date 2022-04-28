@@ -1,4 +1,4 @@
-from models import LinkedList
+from models.LinkedList import LinkedList
 
 def insert_at_start(linked_list, country):
     return LinkedList.insert_at_start(linked_list, country)
@@ -28,4 +28,4 @@ def delete_at_end(linked_list):
     return LinkedList.delete_at_end(linked_list)
 
 def delete_country_by_value(linked_list, country):
-    return LinkedList.delete_country_by_value(linked_list, country)
+    return LinkedList.delete_element_by_value(linked_list, country)
